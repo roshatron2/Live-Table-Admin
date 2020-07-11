@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
+nav {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.profile-img img {
+  height: 40px;
+  border-radius: 50%;
+  transition: all ease-in-out 400ms;
+}
+.profile-img img:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.tables {
+  margin: 6vh;
+}
+.name {
+  font-size: 1.5rem;
+}
+
+.table {
+  margin-top: 30px;
+  border-radius: 6px;
+  border: 1.5px solid #fff;
+  padding: 20px;
+  background: rgba(23, 207, 192, 0.52);
+}
+
+.div-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .status {
+    display: flex;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .ui.button.start {
+    margin-top: 20px;
+  }
+}
